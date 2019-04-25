@@ -1,8 +1,8 @@
-import { IdGenerator } from './id-generator';
+// import { IdGenerator } from './id-generator';
 
 Cypress.Commands.add('additionalFunction', () => {
-  const id: number = IdGenerator.getNextId();
-  cy.log(`Additional function works! ID is ${id}`)
+  // const id: number = IdGenerator.getNextId();
+  // cy.log(`Additional function works! ID is ${id}`)
 });
 
 declare namespace Cypress {
